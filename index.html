@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Garden Siege</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: radial-gradient(circle at 50% 30%, #2e4a26, #121c10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  }
+  canvas {
+    width: min(100vw, 150vh);
+    aspect-ratio: 3 / 2;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    user-select: none;
+  }
+</style>
+</head>
+<body>
+<canvas id="game" width="900" height="600"></canvas>
+<script src="game.js"></script>
+</body>
+</html>
